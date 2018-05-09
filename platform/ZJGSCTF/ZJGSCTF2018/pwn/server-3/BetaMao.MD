@@ -1,3 +1,4 @@
+明显的栈溢出，但是最简单的做法就是直接泄露出密码：
 ```PY
 #!/usr/bin/env python
 # coding=utf-8
@@ -15,5 +16,7 @@ for i in range(32):
     except:
         pass
 	finally:
-		p.close()
+		p.shutdown()
 ```
+![](./images/1.png)
+![](./images/2.png)

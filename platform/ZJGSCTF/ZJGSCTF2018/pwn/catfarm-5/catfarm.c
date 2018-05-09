@@ -10,8 +10,8 @@ typedef struct{
     int sanity;
     char* name;
 } cat;
-cat* catArray[PLMT];
 int catMap;
+cat* catArray[PLMT];
 void putsMenu();
 void addCat();
 void feedCat();
