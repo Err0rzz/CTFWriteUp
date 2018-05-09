@@ -18,5 +18,7 @@ for i in range(32):
 	finally:
 		p.shutdown()
 ```
+
 ![](./images/1.png)
+
 ![](./images/2.png)
